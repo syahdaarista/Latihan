@@ -1,0 +1,38 @@
+. form {
+    <div>
+            <label for="Spells">Spells</label>
+            <input type="text" name="" Nama="">
+        </div>
+        <label for="Email">Email</label>
+        <input type="text" name=""Nama="">
+        <div>
+           <button type="submit"> submit</button>
+        </div>
+    </form>
+</div>
+
+}
+#main-content {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+#books, #movies {
+    width: 30%;
+    background-color: #a5a2f3;
+    padding: 75px;
+    border-radius: 40px;
+}
+{
+    table{
+        border-collapse: collapse;
+    }
+    th,td {
+        border: 3px rgb(3, 3, 3);
+        padding: 10px;
+        text-align: center;
+    }
+    th {
+background-color: rgb(14, 5, 138);
+    }
+}
