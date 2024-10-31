@@ -1,4 +1,4 @@
-. form {
+.form {
     <div>
             <label for="Spells">Spells</label>
             <input type="text" name="" Nama="">
@@ -18,15 +18,29 @@
     padding: 20px;
 }
 #books, #movies {
-    width: 30%;
-    background-color: #a5a2f3;
-    padding: 75px;
-    border-radius: 40px;
+    background-color: #3a3a55;
+    color: #d4af37;
+    padding: 10px;
+    border: 5px solid #d4af37;
+    margin: 50px;
+    width: 400px;
+    border-radius: 10px;
+    text-align: justify;
 }
-{
-    table{
-        border-collapse: collapse;
-    }
+ .table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: left;
+    border: 3px solid#d4af37;
+    background-color: #333;
+    color: #d4af37;
+    background-color: #3a3a55;
+    
+ }
+
+    
     th,td {
         border: 3px rgb(3, 3, 3);
         padding: 10px;
@@ -35,4 +49,116 @@
     th {
 background-color: rgb(14, 5, 138);
     }
+
+
+.border {
+    max-width:fit-content;
+    border: 5px solid #3a3a55;
+    margin; 40px
+    position: fixed; 
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 5rem;
+}
+
+.hogwarts {
+    background-color: #3a3a55;
+    color: #d4af37;
+    padding: 10px;
+    border: 3px solid #d4af37;
+    margin: 15px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.wand {
+    background-color: #3a3a55;
+    color: #d4af37;
+    padding: 10px;
+    border: 3px solid #d4af37;
+    margin: 15px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.potion{
+    background-color: #3a3a55;
+    color: #d4af37;
+    padding: 10px;
+    border: 3px solid #d4af37;
+    margin: 15px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: justify;
+}
+.content:hover {
+    background-color: #222;
+    color: #fffefb;;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+header {
+    margin-top: 20px;
+}
+
+.fa-brands.fa-square-instagram.fa-2x{
+    color: rgb(165, 162, 243);
+}
+
+.fa-solid.fa-globe.fa-2x{
+    color: rgb(165, 162, 243);
+}
+
+footer {
+    background-color: #3a3a55;
+    color: #0a0a0a;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    border-top: 1px solid #d4af37; 
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+*{
+
+
+.main-content {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.link-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #f0c13d; 
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #d4a017; 
 }
