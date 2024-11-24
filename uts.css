@@ -1,0 +1,282 @@
+/* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header Styling */
+.esthetic-header {
+  background: linear-gradient(to bottom right, #f4ede4, );
+  text-align: center;
+  padding: 20px 100px;
+  position: relative;
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.logo {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.salon-name {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  color: #ab947e;
+  font-weight: bold;
+}
+
+.tagline {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  color: #c5a491;
+}
+
+.cta-button {
+  background-color: #e5c7b0; /* Light nude peach */
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #c4a48a; /* Darker nude brown */
+}
+
+/* Navigation Menu */
+.navbar {
+  background: #f1e1d0; /* Soft beige */
+  color: #4f3d2d; /* Dark brown */
+  text-align: center;
+  margin: 0 -350px;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  position: relative;
+}
+
+.navbar ul li a {
+  display: block;
+  padding: 15px 20px;
+  color: #4f3d2d; /* Dark brown */
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  background-color: #d3b299; /* Soft peach */
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url('your-image-or-video.jpg') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30%;
+  background: rgba(224, 190, 158, 0.6); /* Nude overlay */
+  z-index: 1;
+}
+
+.hero-content {
+  z-index: 2;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #4f3d2d; /* Dark brown */
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #6b4f3f; /* Muted brown */
+}
+
+.hero-buttons .btn {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #fff;
+  background: #d3b299; /* Soft peach */
+  transition: background 0.3s ease;
+}
+
+.hero-buttons .btn:hover {
+  background: #c4a48a; /* Darker peach */
+}
+
+.hero-buttons .btn-secondary {
+  background: #e5c7b0; /* Light nude peach */
+}
+
+.hero-buttons .btn-secondary:hover {
+  background: #c4a48a; /* Darker nude brown */
+}
+
+/* Global Section Styling */
+.about-us {
+  background-color: #f9f4ef; /* Nude palette background */
+  padding: 70px 20px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: -650px;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Deskripsi Singkat */
+.about-description {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-description h2 {
+  font-size: 2.5rem;
+  color: #6b4f3f; /* Muted brown */
+}
+
+.about-description p {
+  font-size: 1.2rem;
+  color: #4f3d2d; /* Darker brown */
+  line-height: 1.6;
+}
+
+/* Tim Profesional */
+.about-team {
+  margin-bottom: 40px;
+}
+
+.about-team h3 {
+  font-size: 2rem;
+  color: #6b4f3f; /* Muted brown */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.team-profiles {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+}
+
+.team-member img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.team-member h4 {
+  font-size: 1.5rem;
+  color: #4f3d2d; /* Dark brown */
+}
+
+.team-member p {
+  font-size: 1rem;
+  color: #6b4f3f; /* Muted brown */
+}
+
+/* Video Pendek */
+.about-video {
+  text-align: center;
+}
+
+.about-video h3 {
+  font-size: 2rem;
+  color: #6b4f3f; /* Muted brown */
+  margin-bottom: 20px;
+}
+
+.about-video video {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Sidebar and Footer */
+.sidebar {
+  width: 10%;
+  background: #f1e1d0; /* Soft beige */
+  padding: 20px;
+}
+
+.main-body {
+  width: 75%;
+  padding: 20px;
+}
+
+footer {
+  background: #6b4f3f; /* Muted brown */
+  color: #f8ebe4; /* Warm nude tone */
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer a {
+  color: #e5c7b0; /* Light peach */
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
