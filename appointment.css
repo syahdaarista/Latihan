@@ -1,0 +1,245 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Header Styling */
+  .esthetic-header {
+    background: linear-gradient(to bottom right, #f4ede4, );
+    text-align: center;
+    padding: 20px 100px;
+    position: relative;
+  }
+  
+  .header-content {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .logo {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .salon-name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    color: #ab947e;
+    font-weight: bold;
+  }
+  
+  .tagline {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    color: #c5a491;
+  }
+  
+  .cta-button {
+    background-color: #e5c7b0; /* Light nude peach */
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #c4a48a; /* Darker nude brown */
+  }
+  
+  /* Navigation Menu */
+  .navbar {
+    background: #f1e1d0; /* Soft beige */
+    color: #4f3d2d; /* Dark brown */
+    text-align: center;
+    margin: 0 -160px;
+  }
+  
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar ul li {
+    position: relative;
+  }
+  
+  .navbar ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: #4f3d2d; /* Dark brown */
+    text-decoration: none;
+  }
+  
+  .navbar ul li a:hover {
+    background-color: #d3b299; /* Soft peach */
+  }
+
+  /* Book Appointment Section */
+.book-appointment {
+    background-color: #fdf7f0; /* Warna krem lembut */
+    padding: 60px 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #5a5a5a;
+    text-align: center;
+  }
+  
+  .book-appointment .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .book-appointment .section-title {
+    font-size: 2rem;
+    color: #c59d5f; /* Warna emas lembut */
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .book-appointment .section-subtitle {
+    font-size: 1rem;
+    color: #7a7a7a;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  .appointment-form {
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid #f3eae2;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f6f3;
+    transition: border-color 0.3s;
+  }
+  
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus {
+    border-color: #c59d5f; /* Fokus dengan aksen emas */
+    outline: none;
+  }
+  
+  .form-group textarea {
+    resize: none;
+  }
+  
+  .btn-submit {
+    display: inline-block;
+    background-color: #c59d5f; /* Tombol emas */
+    color: #fff;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-submit:hover {
+    background-color: #a47e4a; /* Warna hover emas lebih gelap */
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .appointment-form {
+      padding: 30px;
+    }
+  
+    .form-group label,
+    .form-group input,
+    .btn-submit {
+      font-size: 0.9rem;
+    }
+
+  }
+  .btn-submit:hover {
+    box-shadow: 0 6px 15px rgba(197, 157, 95, 0.4);
+  }
+    
+  .scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none; /* Untuk sembunyikan tombol */
+    color: #0a1829;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.scroll-to-top:hover {
+    background-color: transparent;
+    color: rgb(76 78 221);
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none; /* Untuk sembunyikan tombol */
+    color: #0a1829;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.scroll-to-top:hover {
+    background-color: transparent;
+    color: rgb(76 78 221);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #f8e3d6;
+    font-size: 0.9rem;
+    color: #5a5a5a;
+  }
+  
+  footer a {
+    color: #c59d5f;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    color: #a47e4a;
+  }
+
+ 

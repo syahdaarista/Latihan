@@ -1,3 +1,12 @@
+
+/* CSS Variables */
+:root {
+  --color-primary: #d3b299;
+  --color-secondary: #c4a48a;
+  --color-bg-light: #f9f4ef;
+  --color-text-dark: #4f3d2d;
+  --color-muted: #6b4f3f;
+}
 /* Global Styles */
 body {
   font-family: 'Poppins', sans-serif;
@@ -62,7 +71,7 @@ a {
   background: #f1e1d0; /* Soft beige */
   color: #4f3d2d; /* Dark brown */
   text-align: center;
-  margin: 0 -350px;
+  margin: 0 -160px;
 }
 
 .navbar ul {
@@ -91,7 +100,7 @@ a {
 /* Hero Section */
 .hero {
   position: relative;
-  height: 100vh;
+  height: 120vh;
   background: url('your-image-or-video.jpg') no-repeat center center/cover;
   display: flex;
   justify-content: center;
@@ -129,7 +138,7 @@ a {
 .hero-buttons .btn {
   display: inline-block;
   margin: 0 10px;
-  padding: 10px 20px;
+  padding: 10px 10px;
   font-size: 1rem;
   text-decoration: none;
   border-radius: 5px;
@@ -239,18 +248,8 @@ a {
   max-width: 100%;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: -100rem;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Sidebar and Footer */
@@ -265,18 +264,205 @@ a {
   padding: 20px;
 }
 
+
+/* Footer Styling */
 footer {
-  background: #6b4f3f; /* Muted brown */
-  color: #f8ebe4; /* Warm nude tone */
   text-align: center;
-  padding: 10px 0;
+  padding: 20x;
+  background: #d4a373;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: -10rem
+}
+
+.back-to-home {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #d4a373;
+}
+
+.back-to-home:hover {
+  text-decoration: underline;
+}
+
+.articles {
+  padding: 20px;
+  display: grid;
+  gap: 20px;
+}
+
+.article-box {
+  background: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.article-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.article-box h2 {
+  font-size: 1.5rem;
+  margin: 0 0 10px;
+}
+
+.article-box h2 a {
+  color: #d4a373;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.article-box h2 a:hover {
+  color: #a67c52;
+}
+
+.article-box p {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: #d4a373;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background 0.3s ease;
+}
+
+.read-more:hover {
+  background: #a67c52;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none; /* Untuk sembunyikan tombol */
+  color: #0a1829;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.scroll-to-top:hover {
+  background-color: transparent;
+  color: rgb(76 78 221);
+}
+
+/* Contact Us Section */
+.contact-section {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #e5c7b0;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  color: #4d4033;
+}
+
+.contact-section h2 {
+  text-align: center;
+  color: #4d4033;
+  margin-bottom: 15px;
+}
+
+.contact-section p {
+  text-align: center;
+  color: #5a4736;
+  margin-bottom: 25px;
+}
+
+.contact-details {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-details p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #5a4736;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form label {
+  font-weight: bold;
+  color: #4d4033;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c4a48a;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #4d4033;
+}
+
+.contact-form textarea {
+  resize: none;
+  height: 100px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #d3b299;
+  box-shadow: 0 0 5px #d3b299;
+}
+
+.contact-form button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #d3b299;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #c4a48a;
+}
+/* Footer */
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  padding: 20px 10px;
+  background-color: #f8e3d6;
+  font-size: 0.9rem;
+  color: #5a5a5a;
 }
 
 footer a {
-  color: #e5c7b0; /* Light peach */
-  text-decoration: none;
+  color: #c59d5f;
+  font-weight: bold;
 }
 
 footer a:hover {
-  text-decoration: underline;
+  color: #a47e4a;
 }
+
+style
+    a:hover {
+        color: #e5c7b0; /* Warna berubah saat hover */
+    }
+style

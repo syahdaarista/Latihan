@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neo LuxeTech Beauty</title>
+  <link rel="stylesheet" href="appointment.css">
+  <link rel="icon" href="images/logo_with_white_bg.png" type="image/x-icon">
+</head>
+
+<body>
+ <!-- Header -->
+ <header class="esthetic-header">
+  <div class="header-content">
+    <img src="images/logo_with_white_bg.png" alt="Neo LuxeTech Beauty Logo" class="logo">
+    <h1 class="salon-name">Neo LuxeTech Beauty</h1>
+    <p class="tagline">Redefining Elegance</p>
+
+<nav class="navbar">
+  <ul>
+    <li><a href="uts.html">Home</a></li>
+    <li><a href="services.html">Gallery</a></li>
+    <li><a href="appointment.html">Book Appointment</a></li>
+    <li><a href="about.html">About Us</a></li>
+  </ul>
+</nav>
+</header>
+
+
+<section class="book-appointment" id="appointment">
+    <div class="container">
+      <h2 class="section-title">Book Appointment</h2>
+      <p class="section-subtitle">
+        Jadwalkan kunjungan Anda dan nikmati pengalaman kecantikan terbaik bersama Neo LuxeTech Beauty.  
+        Silakan isi form di bawah ini untuk membuat janji temu.
+      </p>
+  
+      <form action="#" method="post" class="appointment-form">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required />
+        </div>
+  
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required />
+        </div>
+  
+        <div class="form-group">
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" placeholder="Masukkan nomor telepon Anda" required />
+        </div>
+  
+        <div class="form-group">
+          <label for="service">Service:</label>
+          <select id="service" name="service" required>
+            <option value="" disabled selected>Pilih layanan</option>
+            <option value="hair-treatment">Hair Treatment</option>
+            <option value="body-treatment">Body Treatment</option>
+            <option value="nails-treatment">Nails Treatment</option>
+          </select>
+        </div>
+  
+        <div class="form-group">
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" required />
+        </div>
+  
+        <div class="form-group">
+          <label for="time">Time:</label>
+          <input type="time" id="time" name="time" required />
+        </div>
+  
+        <div class="form-group">
+          <label for="notes">Notes:</label>
+          <textarea id="notes" name="notes" rows="4" placeholder="Tuliskan detail tambahan (opsional)"></textarea>
+        </div>
+  
+        <button type="submit" class="btn-submit">Book an Appointment</button>
+      </form>
+    </div>
+  </section>
+
+<button id="scrollToTopBtn" class="scroll-to-top" style="font-size: 30px;">&#8679</button>
+<script>
+  const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+// Memunculkan button jika di scroll sesuai height
+window.onscroll = function () {
+  if (document.body.scrollTop > 185 || document.documentElement.scrollTop > 185) {
+    scrollToTopBtn.style.display = "block";
+  } else {
+    scrollToTopBtn.style.display = "none";
+  }
+};
+// Akan scroll ke atas
+scrollToTopBtn.addEventListener("click", function () {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+});
+</script>
+  </body>
+  <footer>
+    <p>© 2024 Neo LuxeTech Beauty. All Rights Reserved.</p>
+    <p>Design by Anjani Syahda Arista | <a href="https://itsuhairconcept.com/?gad_source=1&gclid=Cj0KCQiAgJa6BhCOARIsAMiL7V_mFeiUXpKv81Gb_RAEP9yy3bSW6FpMvEsJDp47sGXzgzNGbdiR0ccaAj16EALw_wcB"> Beauty Website</a></p>
+  </footer>
+
+
+
+</html>

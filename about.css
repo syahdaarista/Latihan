@@ -1,0 +1,441 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Header Styling */
+  .esthetic-header {
+    background: linear-gradient(to bottom right, #f4ede4, );
+    text-align: center;
+    padding: 20px 100px;
+    position: relative;
+  }
+  
+  .header-content {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .logo {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .salon-name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    color: #ab947e;
+    font-weight: bold;
+  }
+  
+  .tagline {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    color: #c5a491;
+  }
+  
+  .cta-button {
+    background-color: #e5c7b0; /* Light nude peach */
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #c4a48a; /* Darker nude brown */
+  }
+  
+  /* Navigation Menu */
+  .navbar {
+    background: #f1e1d0; /* Soft beige */
+    color: #4f3d2d; /* Dark brown */
+    text-align: center;
+    margin: 0 -160px;
+  }
+  
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar ul li {
+    position: relative;
+  }
+  
+  .navbar ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: #4f3d2d; /* Dark brown */
+    text-decoration: none;
+  }
+  
+  .navbar ul li a:hover {
+    background-color: #d3b299; /* Soft peach */
+  }
+  
+
+/* About Section */
+.about-section {
+    padding: 60px 20px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .sub-title {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    color: #5a5a5a;
+  }
+  
+  .section-content {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #7a7a7a;
+    text-align: justify;
+  }
+  
+  .section-list {
+    list-style: disc;
+    padding-left: 20px;
+    line-height: 1.8;
+    color: #7a7a7a;
+  }
+
+
+  .scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none; /* Untuk sembunyikan tombol */
+    color: #0a1829;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .scroll-to-top:hover {
+    background-color: transparent;
+    color: rgb(76 78 221);
+  }
+
+  /* Organizational Structure Section */
+.organizational-structure {
+    padding: 60px 20px;
+    background-color: #fdf7f0;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    text-align: center;
+    color: #c59d5f;
+    margin-bottom: 40px;
+  }
+  
+  .team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .team-member {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .team-photo {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .team-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #5a5a5a;
+  }
+  
+  .team-role {
+    font-size: 0.9rem;
+    color: #7a7a7a;
+  }
+  
+
+
+  /* Footer */
+footer {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #f8e3d6;
+    font-size: 0.9rem;
+    color: #5a5a5a;
+  }
+  
+  footer a {
+    color: #c59d5f;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    color: #a47e4a;
+  }
+
+  /* Bagian Tujuan Lembaga */
+.institutional-goals-section {
+  padding: 60px 20px;
+  background-color: #fbece2;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.institutional-goals-section .section-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #c59d5f;
+}
+
+.goals-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.goal-item {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  flex-basis: calc(50% - 20px); /* Dua item per baris untuk layar besar */
+  max-width: 500px;
+  transition: transform 0.3s ease;
+}
+
+.goal-item:hover {
+  transform: scale(1.05);
+}
+
+.goal-icon {
+  font-size: 2rem;
+  margin-right: 20px;
+  color: #c59d5f;
+}
+
+.goal-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #5a5a5a;
+}
+
+@media (max-width: 768px) {
+  .goal-item {
+    flex-basis: 100%; /* Susunan vertikal untuk layar kecil */
+  }
+}
+
+/* Bagian Visi dan Misi */
+.vision-mission-section {
+  padding: 60px 20px;
+  background: linear-gradient(to bottom, #fbece2, #f8e3d6);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #c59d5f;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.vision-mission-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.vision, .mission {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.sub-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #c59d5f;
+  margin-bottom: 15px;
+}
+
+.vision p, .mission-list {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #5a5a5a;
+}
+
+.mission-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.mission-list li {
+  margin-bottom: 10px;
+}
+
+.vision p {
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+/* Desain Responsif */
+@media (max-width: 768px) {
+  .vision-mission-content {
+    flex-direction: column;
+  }
+
+  .vision, .mission {
+    width: 100%;
+  }
+}
+
+/* Bagian Sejarah */
+.history-section {
+  padding: 60px 20px;
+  background-color: #fdf7f0;
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #c59d5f;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.history-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.history-text {
+  flex: 1;
+  font-size: 1rem;
+  color: #7a7a7a;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.history-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.history-image img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 768px) {
+  .history-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .history-text {
+    text-align: center;
+  }
+}
+
+/* Profil Lembaga Section */
+.profile-section {
+  background: linear-gradient(to right, #fbece2, #f8e3d6);  /* Soft cream gradient */
+  padding: 60px 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #c59d5f; /* Gold color for the title */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section-content {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #7a7a7a;  /* Light gray text color */
+  text-align: justify;
+  margin-bottom: 20px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile-section p:last-child {
+  font-weight: bold;
+  color: #c59d5f;  /* Gold color for the final call to action */
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
